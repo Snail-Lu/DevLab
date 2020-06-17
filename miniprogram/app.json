@@ -1,6 +1,10 @@
 {
   "pages": [
     "pages/index/index",
+    "pages/components/components",
+    "pages/bugs/bugs",
+    "pages/demos/demos",
+    "pages/officialDemo/officialDemo",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -18,8 +22,33 @@
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "开发实验室",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#1750e3",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Home",
+      "iconPath": "./images/icons/home.png",
+      "selectedIconPath": "./images/icons/home-active.png"
+    }, {
+      "pagePath": "pages/components/components",
+      "text": "Components",
+      "iconPath": "./images/icons/components.png",
+      "selectedIconPath": "./images/icons/components-active.png"
+    }, {
+      "pagePath": "pages/bugs/bugs",
+      "text": "Bugs",
+      "iconPath": "./images/icons/bug.png",
+      "selectedIconPath": "./images/icons/bug-active.png"
+    }, {
+      "pagePath": "pages/demos/demos",
+      "text": "Demos",
+      "iconPath": "./images/icons/moban.png",
+      "selectedIconPath": "./images/icons/moban-active.png"
+    }]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"
