@@ -5,6 +5,7 @@
     "pages/bugs/bugs",
     "pages/demos/demos",
     "pages/officialDemo/officialDemo",
+    "pages/components/example/example",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
     "pages/databaseGuide/databaseGuide",
@@ -27,27 +28,27 @@
   },
   "tabBar": {
     "color": "#8a8a8a",
-    "selectedColor": "#1750e3",
+    "selectedColor": "#04C061",
     "list": [{
       "pagePath": "pages/index/index",
       "text": "Home",
       "iconPath": "./images/icons/home.png",
-      "selectedIconPath": "./images/icons/home-active.png"
+      "selectedIconPath": "./images/icons/home-selected.png"
     }, {
       "pagePath": "pages/components/components",
-      "text": "Components",
-      "iconPath": "./images/icons/components.png",
-      "selectedIconPath": "./images/icons/components-active.png"
+      "text": "Component",
+      "iconPath": "./images/icons/zujian.png",
+      "selectedIconPath": "./images/icons/zujian-selected.png"
     }, {
       "pagePath": "pages/bugs/bugs",
-      "text": "Bugs",
+      "text": "Bug",
       "iconPath": "./images/icons/bug.png",
-      "selectedIconPath": "./images/icons/bug-active.png"
+      "selectedIconPath": "./images/icons/bug-selected.png"
     }, {
       "pagePath": "pages/demos/demos",
-      "text": "Demos",
+      "text": "Demo",
       "iconPath": "./images/icons/moban.png",
-      "selectedIconPath": "./images/icons/moban-active.png"
+      "selectedIconPath": "./images/icons/moban-selected.png"
     }]
   },
   "sitemapLocation": "sitemap.json",

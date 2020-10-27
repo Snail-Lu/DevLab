@@ -1,0 +1,54 @@
+.share-poster-box{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 600rpx;
+    height: 1000rpx;
+    margin: auto;
+    // background: #fff;
+    // border-radius: 20rpx  ;
+    box-sizing: border-box;
+    z-index: 2000;
+    .close-icon{
+        width: 50rpx;
+        height: 50rpx;
+        position: absolute;
+        right:-40rpx;
+        top:-50rpx;
+        z-index: 3000;
+    }
+    .poster-canvas{
+        width: 100%;
+        height: 880rpx;
+    }
+    .poster-footer{
+        button{
+            width: 80%;
+            height:70rpx;
+            font-size: 28rpx;
+            color:#ffffff;
+            border-radius: 15rpx;
+            margin-top: 25rpx;
+            background: #000;
+        }
+        .share-tips{
+            color:#070707;
+            text-align: center;
+            font-size: 24rpx;
+            margin-top: 12rpx;
+        }
+    }
+  
+}
+
+.my-share-poster-modal-mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}

@@ -1,0 +1,53 @@
+.components-container {
+    padding: 32rpx;
+    
+    .components-item {
+        background: #fff;
+        margin-bottom: 20rpx;
+        padding: 20rpx;
+        box-sizing: border-box;
+        border-radius: 6rpx;
+
+        .image-box {
+            position: relative;
+            width: 150rpx;
+            height: 150rpx;
+        }
+
+        .item-status {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #888;
+            width: 100%;
+            text-align: center;
+        }
+
+        .item-image {
+            width: 100%;
+            height: 100%;
+            background-color: #ccc;
+            border-radius: 10rpx;
+        }
+        
+        .item-content {
+            margin-left: 20rpx;
+        }
+
+        .item-name {
+            font-size: 28rpx;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .item-desc {
+            font-size: 26rpx;
+            color: #333;
+        }
+
+        .item-date {
+            font-size: 24rpx;
+            color: #666;
+        }
+    }
+}

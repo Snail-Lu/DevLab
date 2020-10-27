@@ -154,3 +154,56 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.flex{
+  display: flex;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-h-between{
+  justify-content: space-between;
+}
+
+.flex-h-around{
+  justify-content: space-around;
+}
+
+.flex-h-end{
+  justify-content: flex-end;
+}
+
+.flex-v-center{
+  align-items: center;
+}
+
+.flex-item-1{
+  flex: 1;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+  /*单行溢出省咯号*/
+  .oneline-overflow {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+
+  /* 多行溢出 */
+  .multiline-overflow{
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 100%;
+  }
