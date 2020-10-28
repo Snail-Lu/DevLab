@@ -10,12 +10,15 @@
     "minified": true,
     "newFeature": true,
     "coverView": true,
+    "nodeModules": false,
     "autoAudits": false,
     "showShadowRootInWxmlPanel": true,
     "scopeDataCheck": false,
+    "uglifyFileName": false,
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
     "useMultiFrameRuntime": false,
     "useApiHook": true,
     "babelSetting": {
@@ -66,8 +69,15 @@
         },
         {
           "id": 1,
-          "name": "pages/components/components",
-          "pathName": "pages/components/components",
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/component/component",
+          "pathName": "pages/component/component",
           "query": "",
           "scene": null
         }

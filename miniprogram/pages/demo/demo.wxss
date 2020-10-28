@@ -1,0 +1,68 @@
+.demos-container {
+  padding: 32rpx;
+}
+
+.demos-container .preface {
+  font-size: 24rpx;
+  background: #fff;
+  border-radius: 4rpx;
+  padding: 20rpx 30rpx;
+  text-indent: 2em;
+  margin-bottom: 20rpx;
+}
+
+.demos-container .demo-item {
+  background: #fff;
+  margin-bottom: 20rpx;
+  padding: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 6rpx;
+}
+
+.demos-container .demo-item .image-box {
+  position: relative;
+  width: 150rpx;
+  height: 150rpx;
+}
+
+.demos-container .demo-item .item-status {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 20rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+}
+
+.demos-container .demo-item .item-image {
+  width: 100%;
+  height: 100%;
+  background-color: #ccc;
+  border-radius: 10rpx;
+}
+
+.demos-container .demo-item .item-content {
+  margin-left: 20rpx;
+}
+
+.demos-container .demo-item .item-name {
+  font-size: 28rpx;
+  color: #333;
+  font-weight: bold;
+}
+
+.demos-container .demo-item .item-desc {
+  font-size: 24rpx;
+  color: #333;
+}
+
+.demos-container .demo-item .item-date {
+  font-size: 24rpx;
+  color: #666;
+}
+/*# sourceMappingURL=demo.wxss.map */

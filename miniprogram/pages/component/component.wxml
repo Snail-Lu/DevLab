@@ -1,0 +1,18 @@
+<!--pages/components/components.wxml-->
+<view class="components-container">
+    <view class="preface">
+        这里主要将那些具有自有逻辑的代码块（比如生成海报），或者纯粹没有什么逻辑，
+        但在不同使用场景下样式没什么大的区别的功能块（比如轮播图）抽离出来封装成组件。
+    </view>
+    <view class="components-item flex" wx:for="{{componentList}}" wx:key="_id" data-path="{{item.pageUrl}}" bindtap="bindNavigate">
+        <view class="image-box">
+            <image class="item-image" src="{{item.imageUrl}}"/>
+            <view class="item-status">{{ item.completed?'已完成':'开发中' }}</view>
+        </view>
+        <view class="item-content flex-item-1 flex-column flex-h-between">
+            <view class="item-name">{{item.title}}</view>
+            <view class="item-desc multiline-overflow">{{item.desc}}</view>
+            <view class="item-date">完成日期：{{item.completedDate}}</view>
+        </view>
+    </view>
+</view>

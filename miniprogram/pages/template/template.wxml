@@ -1,0 +1,19 @@
+<!--pages/my/my.wxml-->
+<view class="template-container">
+    <view class="preface">
+        这里主要将那些没有自有逻辑、纯展示的代码块抽离出来写成模板。
+        引入模板的页面只需要将数据传递给模板，模板渲染出来即可。模板中的元素的事件处理函数写在引入的页面中，不需要像组件那样繁琐的触发。
+        模板相较于组件更加轻量化。
+    </view>
+    <view class="demo-item flex" wx:for="{{templateList}}" wx:key="_id" data-path="{{item.pageUrl}}" bindtap="bindNavigate">
+        <view class="image-box">
+            <image class="item-image" src="{{item.imageUrl}}" />
+            <view class="item-status">{{item.completed?'已完成':'开发中'}}</view>
+        </view>
+        <view class="item-content flex-item-1 flex-column flex-h-between">
+            <view class="item-name">{{item.title}}</view>
+            <view class="item-desc multiline-overflow">{{item.desc}}</view>
+            <view class="item-date">完成日期：{{item.completedDate}}</view>
+        </view>
+    </view>
+</view>

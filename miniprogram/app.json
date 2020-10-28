@@ -1,23 +1,24 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/components/components",
-    "pages/bugs/bugs",
-    "pages/demos/demos",
-    "pages/officialDemo/officialDemo",
-    "pages/components/example/example",
-    "pages/userConsole/userConsole",
-    "pages/storageConsole/storageConsole",
-    "pages/databaseGuide/databaseGuide",
-    "pages/addFunction/addFunction",
-    "pages/deployFunctions/deployFunctions",
-    "pages/chooseLib/chooseLib",
-    "pages/openapi/openapi",
-    "pages/openapi/serverapi/serverapi",
-    "pages/openapi/callback/callback",
-    "pages/openapi/cloudid/cloudid",
-    "pages/im/im",
-    "pages/im/room/room"
+    "pages/component/component",
+    "pages/components/poster/poster",
+    "pages/template/template",
+    "pages/demo/demo",
+    "pages/demos/mall/mall",
+    "pages/demos/officialDemo/officialDemo",
+    "pages/demos/userConsole/userConsole",
+    "pages/demos/storageConsole/storageConsole",
+    "pages/demos/databaseGuide/databaseGuide",
+    "pages/demos/addFunction/addFunction",
+    "pages/demos/deployFunctions/deployFunctions",
+    "pages/demos/chooseLib/chooseLib",
+    "pages/demos/openapi/openapi",
+    "pages/demos/openapi/serverapi/serverapi",
+    "pages/demos/openapi/callback/callback",
+    "pages/demos/openapi/cloudid/cloudid",
+    "pages/demos/im/im",
+    "pages/demos/im/room/room"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -35,20 +36,20 @@
       "iconPath": "./images/icons/home.png",
       "selectedIconPath": "./images/icons/home-selected.png"
     }, {
-      "pagePath": "pages/components/components",
+      "pagePath": "pages/component/component",
       "text": "Component",
       "iconPath": "./images/icons/zujian.png",
       "selectedIconPath": "./images/icons/zujian-selected.png"
     }, {
-      "pagePath": "pages/bugs/bugs",
-      "text": "Bug",
-      "iconPath": "./images/icons/bug.png",
-      "selectedIconPath": "./images/icons/bug-selected.png"
-    }, {
-      "pagePath": "pages/demos/demos",
-      "text": "Demo",
+      "pagePath": "pages/template/template",
+      "text": "Template",
       "iconPath": "./images/icons/moban.png",
       "selectedIconPath": "./images/icons/moban-selected.png"
+    }, {
+      "pagePath": "pages/demo/demo",
+      "text": "Demo",
+      "iconPath": "./images/icons/page.png",
+      "selectedIconPath": "./images/icons/page-selected.png"
     }]
   },
   "sitemapLocation": "sitemap.json",
