@@ -1,0 +1,16 @@
+<view class="carousel-box">
+    <swiper 
+        indicator-dots="{{indicatorDots}}" 
+        autoplay="{{autoplay}}" 
+        interval="{{interval}}" 
+        duration="{{duration}}"
+        circular="{{circular}}"
+        style="height:{{screenHeight}}rpx"
+    >
+        <block wx:for="{{source}}" wx:key="*this">
+            <swiper-item>
+                <image class="swiper-item {{item}}"></image>
+            </swiper-item>
+        </block>
+      </swiper>
+</view>

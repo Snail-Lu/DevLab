@@ -1,0 +1,8 @@
+<!--pages/components/carousel/carousel.wxml-->
+<view class="carousel-container">
+    <carousel full-screen="{{fullScreen}}"></carousel>
+    <view class="footer">
+        当前是{{fullScreen?'全屏轮播':'普通轮播'}}组件，切换至
+        <button type="primary" size="mini" bindtap="changeFullScreen">{{ fullScreen ? '普通轮播' : '全屏轮播' }}</button>
+    </view>
+</view>

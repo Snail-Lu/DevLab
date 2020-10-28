@@ -1,0 +1,6 @@
+/* pages/components/carousel/carousel.wxss */
+.footer{
+    display: flex;
+    align-items: center;
+    margin-top: 20rpx;
+}

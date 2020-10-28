@@ -2,5 +2,5 @@
   "usingComponents": {
     "share-poster": "/components/shareposter/shareposter"
   },
-  "navigationBarTitleText": "组件效果展示"
+  "navigationBarTitleText": "海报"
 }

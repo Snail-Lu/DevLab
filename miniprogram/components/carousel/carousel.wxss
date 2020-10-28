@@ -1,0 +1,22 @@
+.carousel-box .swiper-item {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+
+.carousel-box .screen-A {
+  background-color: #2782d6;
+}
+
+.carousel-box .screen-B {
+  background-color: #D65D62;
+}
+
+.carousel-box .screen-C {
+  background-color: #B88FD6;
+}
+
+.carousel-box .screen-D {
+  background-color: #A0D684;
+}
+/*# sourceMappingURL=carousel.wxss.map */

@@ -3,6 +3,7 @@
     "pages/index/index",
     "pages/component/component",
     "pages/components/poster/poster",
+    "pages/components/carousel/carousel",
     "pages/template/template",
     "pages/demo/demo",
     "pages/demos/mall/mall",
