@@ -11,7 +11,7 @@ Component({
             value: true
         },
         // 自动播放
-        autoPlay: {
+        autoplay: {
             type: Boolean,
             value: true
         },

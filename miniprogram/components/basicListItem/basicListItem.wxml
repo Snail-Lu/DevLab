@@ -1,0 +1,11 @@
+<view class="components-item" data-path="{{source.pageUrl}}" data-status="{{source.completed}}" bindtap="bindNavigate">
+    <view class="image-box">
+        <image class="item-image" src="{{source.imageUrl}}"/>
+        <view class="item-status {{source.completed?'item-status-finish':'item-status-unfinish'}}">{{ source.completed?'已完成':'开发中' }}</view>
+    </view>
+    <view class="item-content">
+        <view class="item-name">{{source.title}}</view>
+        <view class="item-desc multiline-overflow">{{source.desc}}</view>
+        <view class="item-date">{{source.completedDate}}</view>
+    </view>
+</view>

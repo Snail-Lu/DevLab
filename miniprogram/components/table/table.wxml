@@ -1,0 +1,8 @@
+<view class="table-box">
+    <view class="tr bg-w">
+        <view class="th" wx:for="{{header}}" wx:key="prop">{{item.label}}</view>
+    </view>
+    <view class="tr" wx:for="{{source}}" wx:for-item="trItem" wx:key="property">
+        <view class="td" wx:for="{{header}}" wx:key="prop">{{trItem[item.prop]}}</view>
+    </view>
+</view>

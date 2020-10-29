@@ -1,0 +1,78 @@
+.components-item {
+    display: flex;
+    background: #fff;
+    margin-bottom: 20rpx;
+    padding: 20rpx;
+    box-sizing: border-box;
+    border-radius: 6rpx;
+
+    .image-box {
+        position: relative;
+        width: 150rpx;
+        height: 150rpx;
+        border-radius: 10rpx;
+        overflow: hidden;
+    }
+
+    .item-status {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(0,0,0,0.4);
+        width: 100%;
+        text-align: center;
+        color: #fff;
+    }
+    .item-status-unfinish {
+        height:  150rpx;
+        line-height: 150rpx;
+        font-size: 24rpx;
+    }
+    .item-status-finish{
+        height: 40rpx;
+        line-height: 40rpx;
+        font-size: 20rpx;
+    }
+
+    .item-image {
+        width: 100%;
+        height: 100%;
+        background-color: #04c061;
+    }
+    
+    .item-content {
+        margin-left: 20rpx;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .item-name {
+        font-size: 28rpx;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .item-desc {
+        font-size: 24rpx;
+        color: #333;
+    }
+
+    .item-date {
+        font-size: 24rpx;
+        color: #666;
+    }
+}
+
+  /* 多行溢出 */
+  .multiline-overflow{
+    white-space: normal;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    width: 100%;
+  }
