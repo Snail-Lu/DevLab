@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "text-banner": "/components/textBanner/textBanner",
+    "table": "/components/table/table"
+  },
+  "navigationBarTitleText": "文字banner组件"
+}

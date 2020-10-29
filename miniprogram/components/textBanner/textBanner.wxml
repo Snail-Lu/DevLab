@@ -1,0 +1,3 @@
+<view class="{{useCustomClass?'custom-class':'default-class'}}">
+    {{source}}
+</view>
