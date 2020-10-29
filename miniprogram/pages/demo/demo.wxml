@@ -1,9 +1,10 @@
 <!--pages/my/my.wxml-->
 <view class="demos-container">
-    <view class="preface">
-        这里的Demo，主要是一些完整的页面或某一功能的效果展示，方便以后快速开发类似功能。
-    </view>
-    <view class="demo-item flex" wx:for="{{demoList}}" wx:key="_id" data-path="{{item.pageUrl}}" bindtap="bindNavigate">
+    <text-banner source="{{bannerText}}"></text-banner>
+    <block wx:for="{{demoList}}" wx:key="_id">
+        <basic-list-item source="{{item}}"></basic-list-item>
+    </block>
+    <!-- <view class="demo-item flex" wx:for="{{demoList}}" wx:key="_id" data-path="{{item.pageUrl}}" bindtap="bindNavigate">
         <view class="image-box">
             <image class="item-image" src="{{item.imageUrl}}" />
             <view class="item-status">{{item.completed?'已完成':'开发中'}}</view>
@@ -13,5 +14,5 @@
             <view class="item-desc multiline-overflow">{{item.desc}}</view>
             <view class="item-date">完成日期：{{item.completedDate}}</view>
         </view>
-    </view>
+    </view> -->
 </view>

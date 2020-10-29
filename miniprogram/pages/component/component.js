@@ -7,6 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    bannerText: "这里主要将那些具有自有逻辑的代码块（比如生成海报），或者纯粹没有什么逻辑，但在不同使用场景下样式没什么大的区别的功能块（比如轮播图）抽离出来封装成组件。",
     componentList: []
   },
 
@@ -15,24 +16,6 @@ Page({
    */
   onLoad: function (options) {
     this.getComponentList()
-  },
-
-  /**
-   * 页面跳转
-   */
-  bindNavigate(e){
-    wx.navigateTo({
-      url: e.currentTarget.dataset.path,
-      success: function(res){
-        // success
-      },
-      fail: function() {
-        // fail
-      },
-      complete: function() {
-        // complete
-      }
-    })
   },
 
   // 查库获取demo列表

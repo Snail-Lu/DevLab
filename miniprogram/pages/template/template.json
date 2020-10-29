@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "basic-list-item": "/components/basicListItem/basicListItem",
+    "text-banner": "/components/textBanner/textBanner"
+  }
 }
