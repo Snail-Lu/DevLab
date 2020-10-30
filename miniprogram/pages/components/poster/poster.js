@@ -66,7 +66,8 @@ Page({
     }
   },
 
-  async queryPosterConfig() {
+  // 获取海报配置
+  async getPosterConfig() {
     const db = wx.cloud.database({env:"develop-0hshw"})
     db.collection('config').where({
         configKey: 'share-poster'

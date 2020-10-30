@@ -1,6 +1,6 @@
 <!--pages/components/example/example.wxml-->
 <view class="example-container flex-column flex-h-center">
-    <view class="share-btn" bindtap="queryPosterConfig">生成海报</view>
+    <view class="share-btn" bindtap="getPosterConfig">生成海报</view>
     <view class="">
         <image src="{{wxacodeSrc}}" mode="aspectFit"></image>
     </view>

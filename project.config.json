@@ -80,6 +80,13 @@
           "pathName": "pages/component/component",
           "query": "",
           "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/components/poster/poster",
+          "pathName": "pages/components/poster/poster",
+          "query": "",
+          "scene": null
         }
       ]
     }

@@ -1,4 +1,4 @@
-const db = wx.cloud.database()
+// const db = wx.cloud.database()
 
 export default class DatabaseService {
     static async query (collection) {
