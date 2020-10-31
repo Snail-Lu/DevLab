@@ -5,6 +5,6 @@
         <image src="{{wxacodeSrc}}" mode="aspectFit"></image>
     </view>
     <!-- 海报弹窗 -->
-    <share-poster is-show="{{show}}" poster-info="{{posterInfo}}" bindtapclose="hideSharePosterModal" />
+    <poster is-show="{{show}}" poster-info="{{posterInfo}}" bindtapclose="hideSharePosterModal" />
 </view>
 

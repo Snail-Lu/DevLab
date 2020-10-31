@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "share-poster": "/components/shareposter/shareposter"
+    "poster": "/components/poster/poster"
   },
   "navigationBarTitleText": "海报"
 }

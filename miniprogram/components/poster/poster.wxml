@@ -10,6 +10,6 @@
 <view
     class="my-share-poster-modal-mask"
     wx:if="{{isShow}}"
-    bindtap="bindCloseClick"
+    bindtap="bindClosePoster"
     catchtouchmove="maskMove"
 />
