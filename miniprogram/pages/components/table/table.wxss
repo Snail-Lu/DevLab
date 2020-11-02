@@ -1,0 +1,19 @@
+/* pages/components/table/table.wxss */
+.table-container{
+    padding: 20rpx;
+}
+
+.title {
+    font-size: 28rpx;
+    margin: 20rpx 0;
+    background-color: #B4DED1;
+    color: #434947;
+}
+
+.code {
+    background-color: #ccc;
+    font-size: 24rpx;
+    padding: 20rpx 0;
+    white-space: pre;
+    overflow-x: scroll;
+}

@@ -1,0 +1,15 @@
+<!--pages/components/table/table.wxml-->
+<view class="table-container">
+    <view class="title">组件属性</view>
+    <table header="{{tableHeader}}" source="{{tableData}}"></table>
+
+    <view class="title">使用示例：</view>
+    <view class="code">{{htmlSnip}}</view>
+
+    <view class="title">实现效果：</view>
+    <table header="{{exampleHeader}}" source="{{exampleTableData}}"></table>
+
+    <!-- 海报弹窗 -->
+    <poster show="{{show}}" source="{{posterInfo}}" bindtapclose="hideSharePosterModal" />
+</view>
+
