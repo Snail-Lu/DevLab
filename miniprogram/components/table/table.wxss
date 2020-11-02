@@ -7,6 +7,8 @@
   display: -ms-flexbox;
   display: flex;
   border-bottom: 1px solid #ccc;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .table-box .tr .th {
@@ -30,6 +32,9 @@
   border-right: 1px solid #ccc;
   font-size: 24rpx;
   padding: 6rpx;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  word-break: break-all;
 }
 
 .table-box .tr .td:last-child {
