@@ -1,19 +1,17 @@
-import { cloudRequest } from '../../utils/http.js'
-
 Component({
     properties: {
-       isShow:{
+       show:{
             type: Boolean,
             value: false
         },
-        posterInfo: {
+        source: {
             type: Object,
             value: {}
         }
     },
     observers: {
-        'isShow': function(isShow){
-            if(isShow){
+        'show': function(show){
+            if(show){
                 this.createPoster();
             }else{
                 this.setData({
@@ -33,10 +31,9 @@ Component({
          * @param filePath  太阳码存储路径
          */ 
         async createPoster(qrCode){
-            const { posterInfo } = this.data;
-            console.log(posterInfo)
+            const { source } = this.data;
             // 网络图片需要先下载
-            let mainPicInfo = await wx.getImageInfo({ src: posterInfo.posterImageUrl });
+            let mainPicInfo = await wx.getImageInfo({ src: source.posterImageUrl });
             if(mainPicInfo){
                 let mainPicFilePath = mainPicInfo.path;
                 const query = wx.createSelectorQuery().in(this);
@@ -96,17 +93,11 @@ Component({
          */
         async bindSaveSharePoster(){
             await this.exportCanvasToImage();
-            let  {sharePosterFile } = this.data;
+            let  { sharePosterFile } = this.data;
             try{
                 let saveResult = await wx.saveImageToPhotosAlbum({ filePath:sharePosterFile.tempFilePath });
                 if(saveResult){
-                    let confirm = await wx.showModal({title: '图片已保存到相册，赶紧分享吧~', icon:'none'});
-                    if(confirm){
-                        this.setData({
-                        isShowSharePoster:false,
-                        isShowMask:false
-                        })
-                    }
+                    await wx.showModal({title: '图片已保存到相册，赶紧分享吧~', icon:'none'});
                 }else{
                 await wx.showModal({ title:'图片保存失败！', icon: 'none' });
                 }

@@ -10,6 +10,17 @@ Page({
     wxacodeResult: '',
     showClearWXACodeCache: false,
     show: false,
+    tableHeader: [
+      { prop: 'property', label: '属性' },
+      { prop: 'type', label: '类型' },
+      { prop: 'defaultValue', label: '默认值'},
+      { prop: 'desc', label: '说明' }
+    ],
+    tableData: [
+      { property: 'show', type: 'Boolean', defaultValue: 'false', desc: '组件显示'},
+      { property: 'source', type: 'Object', defaultValue: '{posterImageUrl:""}', desc: '海报数据'},
+      { property: 'bindtapclose', type: 'Function', defaultValue: 'none', desc: '隐藏海报事件处理函数'}
+    ]
   },
 
   /**

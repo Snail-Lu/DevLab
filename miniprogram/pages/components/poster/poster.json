@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "poster": "/components/poster/poster"
+    "poster": "/components/poster/poster",
+    "table": "/components/table/table"
   },
   "navigationBarTitleText": "海报"
 }

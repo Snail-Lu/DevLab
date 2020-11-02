@@ -1,5 +1,5 @@
 <!-- 图片海报 -->
-<view class="share-poster-box" wx:if="{{isShow}}">
+<view class="share-poster-box" wx:if="{{show}}">
     <view class="close-icon" bindtap="bindCloseClick"></view>
     <canvas id="share-poster" type="2d" class="poster-canvas"></canvas>
     <view class="poster-footer">
@@ -9,7 +9,7 @@
 <!-- 遮罩层 -->
 <view
     class="my-share-poster-modal-mask"
-    wx:if="{{isShow}}"
+    wx:if="{{show}}"
     bindtap="bindClosePoster"
     catchtouchmove="maskMove"
 />

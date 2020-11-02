@@ -1,12 +1,6 @@
-/* pages/components/example/example.wxss */
-/* page{
-    height: 100%;
-    width: 100%;
+.poster-container{
+    padding: 20rpx;
 }
-.example-container{
-    height: 100%;
-    width: 100%;
-} */
 .share-btn{
     width: 200rpx;
     height: 200rpx;
@@ -16,5 +10,19 @@
     line-height: 200rpx;
     color: #333;
     text-align: center;
-    margin: auto;
+    margin: 10rpx auto;
+
+}
+
+.title {
+    font-size: 28rpx;
+    margin: 20rpx 0;
+    background-color: #B4DED1;
+    color: #434947;
+}
+
+.code {
+    background-color: #ccc;
+    font-size: 24rpx;
+    padding: 20rpx 0;
 }

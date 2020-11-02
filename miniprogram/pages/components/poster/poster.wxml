@@ -1,10 +1,16 @@
 <!--pages/components/example/example.wxml-->
-<view class="example-container flex-column flex-h-center">
-    <view class="share-btn" bindtap="getPosterConfig">生成海报</view>
-    <view class="">
-        <image src="{{wxacodeSrc}}" mode="aspectFit"></image>
+<view class="poster-container flex-column flex-h-center">
+    <view class="title">组件属性</view>
+    <table header="{{tableHeader}}" source="{{tableData}}"></table>
+
+    <view class="title">使用示例：</view>
+    <view class="code">
+        {{'<poster show="{{show}}" source="{{posterInfo}}" bindtapclose="hideSharePosterModal" />'}}
     </view>
+
+    <view class="share-btn" bindtap="getPosterConfig">点我生成海报</view>
+
     <!-- 海报弹窗 -->
-    <poster is-show="{{show}}" poster-info="{{posterInfo}}" bindtapclose="hideSharePosterModal" />
+    <poster show="{{show}}" source="{{posterInfo}}" bindtapclose="hideSharePosterModal" />
 </view>
 
