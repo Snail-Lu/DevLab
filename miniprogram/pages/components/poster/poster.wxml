@@ -1,12 +1,9 @@
-<!--pages/components/example/example.wxml-->
-<view class="poster-container flex-column flex-h-center">
+<view class="poster-container">
     <view class="title">组件属性</view>
     <table header="{{tableHeader}}" source="{{tableData}}"></table>
 
     <view class="title">使用示例：</view>
-    <view class="code">
-        {{'<poster show="{{show}}" source="{{posterInfo}}" bindtapclose="hideSharePosterModal" />'}}
-    </view>
+    <view class="code">{{htmlSnip}}</view>
 
     <view class="share-btn" bindtap="getPosterConfig">点我生成海报</view>
 

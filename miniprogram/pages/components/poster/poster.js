@@ -20,7 +20,15 @@ Page({
       { property: 'show', type: 'Boolean', defaultValue: 'false', desc: '组件显示'},
       { property: 'source', type: 'Object', defaultValue: '{posterImageUrl:""}', desc: '海报数据'},
       { property: 'bindtapclose', type: 'Function', defaultValue: 'none', desc: '隐藏海报事件处理函数'}
-    ]
+    ],
+    htmlSnip: 
+    `
+      <poster 
+        show="{{show}}" 
+        source="{{posterInfo}}" 
+        bindtapclose="hideSharePosterModal" 
+      />
+    `
   },
 
   /**

@@ -25,4 +25,5 @@
     background-color: #ccc;
     font-size: 24rpx;
     padding: 20rpx 0;
+    white-space: pre;
 }
