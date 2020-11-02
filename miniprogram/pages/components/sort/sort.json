@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "table": "/components/table/table",
+    "sort": "/components/sort/sort"
+  }
+}

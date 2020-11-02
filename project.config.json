@@ -1,94 +1,94 @@
 {
-	"miniprogramRoot": "miniprogram/",
-	"cloudfunctionRoot": "cloudfunctions/",
-	"setting": {
-		"urlCheck": true,
-		"scopeDataCheck": false,
-		"coverView": true,
-		"es6": true,
-		"postcss": true,
-		"compileHotReLoad": false,
-		"preloadBackgroundData": false,
-		"minified": true,
-		"autoAudits": false,
-		"newFeature": true,
-		"uglifyFileName": false,
-		"uploadWithSourceMap": true,
-		"useIsolateContext": true,
-		"nodeModules": false,
-		"enhance": true,
-		"useCompilerModule": false,
-		"userConfirmedUseCompilerModuleSwitch": false,
-		"showShadowRootInWxmlPanel": true,
-		"checkInvalidKey": true,
-		"checkSiteMap": true,
-		"useMultiFrameRuntime": false,
-		"useApiHook": true,
-		"babelSetting": {
-			"ignore": [],
-			"disablePlugins": [],
-			"outputPath": ""
-		},
-		"packNpmManually": false,
-		"packNpmRelationList": []
-	},
-	"appid": "wx531afe87c91b8125",
-	"projectname": "DevelopLab",
-	"libVersion": "2.11.2",
-	"simulatorType": "wechat",
-	"simulatorPluginLibVersion": {},
-	"cloudfunctionTemplateRoot": "cloudfunctionTemplate",
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"list": []
-		},
-		"gamePlugin": {
-			"current": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": -1,
-					"name": "db guide",
-					"pathName": "pages/databaseGuide/databaseGuide",
-					"query": ""
-				},
-				{
-					"id": 1,
-					"name": "pages/demo/demo",
-					"pathName": "pages/demo/demo",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/component/component",
-					"pathName": "pages/component/component",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "pages/components/poster/poster",
-					"pathName": "pages/components/poster/poster",
-					"query": "",
-					"scene": null
-				}
-			]
-		}
-	}
+  "miniprogramRoot": "miniprogram/",
+  "cloudfunctionRoot": "cloudfunctions/",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": true,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": []
+  },
+  "appid": "wx531afe87c91b8125",
+  "projectname": "DevelopLab",
+  "libVersion": "2.11.2",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "plugin": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 0,
+      "list": [
+        {
+          "id": -1,
+          "name": "db guide",
+          "pathName": "pages/databaseGuide/databaseGuide",
+          "query": ""
+        },
+        {
+          "id": 1,
+          "name": "pages/demo/demo",
+          "pathName": "pages/demo/demo",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/component/component",
+          "pathName": "pages/component/component",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": 3,
+          "name": "pages/components/sort/sort",
+          "pathName": "pages/components/sort/sort",
+          "query": "",
+          "scene": null
+        }
+      ]
+    }
+  }
 }

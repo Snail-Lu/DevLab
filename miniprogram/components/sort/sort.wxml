@@ -1,0 +1,12 @@
+<view class="sort-box">
+    <view class="sort-item" wx:for="{{source}}" wx:key="prop" bindtap="changeSortField" data-field="{{item.prop}}" data-type="{{fieldValue}}">
+        <text class="{{currentField==item.prop?'item-active':''}}">{{item.label}}</text>
+        <block wx:if="{{currentField==item.prop}}">
+            <view class="{{fieldValue==2?'triangle-up-active':''}}"></view>
+            <view class="{{fieldValue==1?'triangle-down-active':''}}"></view>
+        </block>
+        <block wx:else>
+            <view class="triangle-down"></view>
+        </block>
+    </view>
+</view>

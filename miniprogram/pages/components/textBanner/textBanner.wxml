@@ -7,13 +7,13 @@
     <view class="code">
         {{'<text-banner source="{{bannerText}}"></text-banner>'}}
     </view>
-    <view class="title">展示效果1：</view>
+    <view class="title">实现效果1：</view>
     <text-banner source="{{bannerText}}"></text-banner>
 
     <view class="title">使用示例2：</view>
     <view class="code">
         {{'<text-banner source="{{bannerText}}" use-custom-class="{{true}}" custom-class="text-banner"></text-banner>'}}
     </view>
-    <view class="title">展示效果2：</view>
+    <view class="title">实现效果2：</view>
     <text-banner source="{{bannerText}}" use-custom-class="{{true}}" custom-class="text-banner"></text-banner>
 </view>

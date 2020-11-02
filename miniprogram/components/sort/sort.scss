@@ -1,0 +1,50 @@
+.sort-box {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    padding: 10rpx 0;
+    font-size: 26rpx;
+    
+    .sort-item {
+        display: flex;
+        align-items: center;
+    }
+    
+    .item-active {
+        color: red;
+    }
+
+    .triangle-up{
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 8px solid #aaa;
+    }
+
+    .triangle-up-active {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-bottom: 8px solid rgb(216, 49, 49);
+    }
+
+    .triangle-down{
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 8px solid #aaa;
+    }
+
+    .triangle-down-active {
+        width: 0;
+        height: 0;
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 8px solid red;
+    }
+    
+    
+}

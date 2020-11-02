@@ -1,0 +1,11 @@
+<!--pages/components/sort/sort.wxml-->
+<view class="sort-container">
+    <view class="title">组件属性</view>
+    <table header="{{tableHeader}}" source="{{tableData}}"></table>
+
+    <view class="title">使用示例：</view>
+    <view class="code">{{htmlSnip}}</view>
+
+    <view class="title">实现效果：</view>
+    <sort source="{{sortList}}"></sort>
+</view>
