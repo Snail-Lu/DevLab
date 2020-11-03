@@ -1,0 +1,109 @@
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+}
+
+.search-box .input-box {
+  width: 678rpx;
+  height: 82rpx;
+  border: 1rpx solid #808080;
+  padding: 20rpx 36rpx 20rpx 42rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 41rpx;
+}
+
+.search-box .input-box input {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: none;
+  font-size: 24rpx;
+}
+
+.search-box .input-box .search-btn {
+  padding: 0 20rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.search-box .input-box .search-btn image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.search-box .input-box .search-placeholder {
+  color: #808080;
+}
+
+.search-box .hot-search-box {
+  width: 678rpx;
+  margin-top: 42rpx;
+}
+
+.search-box .hot-search-box .hot-search-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24rpx;
+  color: #070707;
+  margin-bottom: 42rpx;
+}
+
+.search-box .hot-search-box .hot-search-title .hot-search-delete {
+  text-decoration: underline;
+}
+
+.search-box .hot-search-box .hot-search-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.search-box .hot-search-box .hot-search-content .key-words {
+  font-size: 24rpx;
+  padding: 0 33rpx;
+  height: 46rpx;
+  line-height: 46rpx;
+  margin-right: 14rpx;
+  margin-bottom: 18rpx;
+  border-radius: 23rpx;
+}
+
+.search-box .hot-search-box .hot-search-content .recent-words {
+  background-color: #eee;
+  color: #000;
+}
+
+.search-box .hot-search-box .hot-search-content .hot-words {
+  background: #f0c2c2;
+  color: #db3232;
+}
+/*# sourceMappingURL=search.wxss.map */

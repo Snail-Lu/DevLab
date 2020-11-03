@@ -1,0 +1,4 @@
+<!--pages/components/search/search.wxml-->
+<view class="search-container">
+    <search show="{{true}}" bindhandlesearch="onSearch" />
+</view>

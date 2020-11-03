@@ -1,0 +1,30 @@
+<view class="search-box" hidden="{{!show}}">
+    <view class="input-box">
+            <input placeholder="输入关键字" placeholder-class="search-placeholder" value="{{searchWords}}" bindinput="searchInput" bindconfirm="submitSearch"/>
+            <view class="search-btn" catchtap="submitSearch">
+                <image src="/images/icons/search.png" />
+            </view>
+    </view>
+    <view class="hot-search-box" wx:if="{{searchRecord.length>0}}">
+        <view class="hot-search-title">
+            <text>最近搜索</text>
+            <text class="hot-search-delete" bindtap="deleteSearchRecords">删除全部</text>
+        </view>
+        <view class="hot-search-content">
+            <view class="key-words recent-words" wx:for="{{searchRecord}}" wx:key="*this"data-value="{{item}}" bindtap="wordsSearch">
+                {{item}}
+            </view>
+        </view>
+    </view>
+    <view class="hot-search-box">
+        <view class="hot-search-title">
+            <text>热门搜索</text>
+            <text class="hot-search-delete"></text>
+        </view>
+        <view class="hot-search-content">
+            <view class="key-words hot-words" wx:for="{{hotWords}}" wx:key="*this" data-value="{{item}}" bindtap="wordsSearch">
+                {{item}}
+            </view>
+        </view>
+    </view>
+</view>
