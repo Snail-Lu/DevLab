@@ -1,0 +1,68 @@
+@-webkit-keyframes moveformbottom {
+  0% {
+    left: 0;
+    bottom: -500px;
+  }
+}
+
+@keyframes moveformbottom {
+  0% {
+    left: 0;
+    bottom: -500px;
+  }
+}
+
+.share-box {
+  padding: 30rpx 40rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-top-left-radius: 20rpx;
+  border-top-right-radius: 20rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  z-index: 1000;
+  background: #fff;
+  -webkit-animation: moveformbottom 1s;
+          animation: moveformbottom 1s;
+}
+
+.share-box .title {
+  width: 100%;
+  text-align: center;
+  font-size: 24rpx;
+}
+
+.share-box .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 24rpx;
+  padding: 20rpx 0;
+}
+
+.share-box .content .share-item {
+  text-align: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.share-box .content .share-item-icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.mask {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=share.wxss.map */

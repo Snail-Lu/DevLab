@@ -83,8 +83,8 @@
         },
         {
           "id": 3,
-          "name": "pages/demos/lottie/lottie",
-          "pathName": "pages/demos/lottie/lottie",
+          "name": "pages/components/share/share",
+          "pathName": "pages/components/share/share",
           "query": "",
           "scene": null
         }

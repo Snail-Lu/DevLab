@@ -1,0 +1,14 @@
+<view class="share-box" wx:if="{{show}}">
+    <view class="title">分享至</view>
+    <view class="content">
+        <view class="share-item">
+            <image src="../../images/icons/weixin.png" class="share-item-icon" />
+            <view>微信</view>
+        </view>
+         <view class="share-item">
+            <image src="../../images/icons/album.png" class="share-item-icon" />
+            <view>海报</view>
+        </view>
+    </view>
+</view>
+<view class="mask" bindtap="hideShareModal" wx:if="{{show}}"></view>

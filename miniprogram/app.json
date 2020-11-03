@@ -7,6 +7,7 @@
     "pages/components/textBanner/textBanner",
     "pages/components/table/table",
     "pages/components/sort/sort",
+    "pages/components/share/share",
     "pages/template/template",
     "pages/demo/demo",
     "pages/demos/mall/mall",

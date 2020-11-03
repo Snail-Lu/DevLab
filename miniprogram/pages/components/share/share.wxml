@@ -1,0 +1,5 @@
+<!--pages/components/share/share.wxml-->
+<view class="share-container">
+    <button type="primary" bindtap="showShareModal">分享</button>
+    <share show="{{show}}" bindhidemodal="hideShareModal" />
+</view>
