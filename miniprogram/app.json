@@ -22,7 +22,8 @@
     "pages/demos/openapi/callback/callback",
     "pages/demos/openapi/cloudid/cloudid",
     "pages/demos/im/im",
-    "pages/demos/im/room/room"
+    "pages/demos/im/room/room",
+    "pages/demos/lottie/lottie"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

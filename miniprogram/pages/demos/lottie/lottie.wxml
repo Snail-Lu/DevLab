@@ -1,0 +1,9 @@
+<!--pages/demos/lottie/lottie.wxml-->
+<view class="lottie-container">
+    <canvas id="lottie-canvas" type="2d" />
+    
+    <button class="btn" type="primary" bindtap="init">初始化</button>
+    <button class="btn" type="primary" bindtap="play">播放</button>
+    <button class="btn" type="primary" bindtap="pause">暂停</button>
+    <button class="btn" type="primary" bindtap="switch">切换下一个动画</button>
+</view> 

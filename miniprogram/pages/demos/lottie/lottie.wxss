@@ -1,0 +1,13 @@
+/* pages/demos/lottie/lottie.wxss */
+.lottie-container {
+    text-align: center;
+}
+#lottie-canvas {
+    display: inline-block;
+    width: 300rpx;
+    height: 300rpx;
+}
+.btn {
+    margin-bottom: 20rpx;
+    width: 90%;
+}
