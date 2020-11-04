@@ -1,0 +1,11 @@
+<!--pages/templateDetail/templateDetail.wxml-->
+<import src="./template/template.wxml"></import>
+
+<view class="template-detail-container">
+    <block wx:for="{{templateList}}" wx:for-item="tempItem" wx:key="*this">
+        <view class="template-title">模板{{index+1}}</view>
+        <view class="list">
+            <template is="{{tempItem}}" wx:for="{{2}}"></template>
+        </view>  
+    </block>
+</view>

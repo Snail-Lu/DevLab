@@ -2,7 +2,7 @@
   "miniprogramRoot": "miniprogram/",
   "cloudfunctionRoot": "cloudfunctions/",
   "setting": {
-    "urlCheck": true,
+    "urlCheck": false,
     "es6": true,
     "enhance": true,
     "postcss": true,
@@ -30,7 +30,8 @@
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": []
+    "packNpmRelationList": [],
+    "minifyWXSS": true
   },
   "appid": "wx531afe87c91b8125",
   "projectname": "DevelopLab",
@@ -39,27 +40,16 @@
   "simulatorPluginLibVersion": {},
   "cloudfunctionTemplateRoot": "cloudfunctionTemplate",
   "condition": {
-    "search": {
-      "current": -1,
-      "list": []
-    },
-    "conversation": {
-      "current": -1,
-      "list": []
-    },
     "plugin": {
-      "current": -1,
       "list": []
     },
     "game": {
       "list": []
     },
     "gamePlugin": {
-      "current": -1,
       "list": []
     },
     "miniprogram": {
-      "current": 0,
       "list": [
         {
           "id": -1,
@@ -75,17 +65,15 @@
           "scene": null
         },
         {
-          "id": -1,
-          "name": "pages/component/component",
-          "pathName": "pages/component/component",
+          "name": "pages/template/template",
+          "pathName": "pages/template/template",
           "query": "",
           "scene": null
         },
         {
-          "id": 3,
-          "name": "pages/components/search/search",
-          "pathName": "pages/components/search/search",
-          "query": "",
+          "name": "pages/templateDetail/templateDetail",
+          "pathName": "pages/templateDetail/templateDetail",
+          "query": "template=orderItem",
           "scene": null
         }
       ]

@@ -1,0 +1,66 @@
+<!-- 商品项模板1 - 单列 -->
+<template name="goodsItem1">
+    <view class="goods-item-1">
+        <image class="goods-image"></image>
+        <view class="goods-info">
+            <view class="goods-name">【双11预售】最新限量款限定款预售正品cherry樱桃轴红轴机械键盘(含有线/无线鼠标套装)</view>
+            <view class="goods-price">¥158<span class="origin-price">¥249</span></view>
+        </view>
+    </view>
+</template>
+
+
+<!-- 商品项模板2 - 双列 -->
+<template name="goodsItem2">
+    <view class="goods-item-2">
+        <image class="goods-image"></image>
+        <view class="goods-info">
+            <view class="goods-name">【双11预售】最新限量款限定款预售正品cherry樱桃轴红轴机械键盘(含有线/无线鼠标套装)</view>
+            <view class="goods-price">¥158<span class="origin-price">¥249</span></view>
+        </view>
+    </view>
+</template>
+
+<!-- 地址项模板 -->
+<template name="addressItem">
+    <view class="address-item">
+        <view class="user-info">
+            <text class="name">列夫托尔斯明hahahah</text>
+            <text class="phone">13112341234</text>
+            <text class="label default-label">默认</text>
+            <text class="label common-label">家</text>
+        </view>
+        <view class="address-info">
+            <view class="address">上海市浦东新区张江镇张江路张江科创园1期1栋1111室</view>
+            <image class="edit-btn" src="/images/icons/edit.png" />
+        </view>
+    </view>
+</template>
+
+
+<!-- 订单项模板1 -->
+<template name="orderItem">
+    <view class="order-item">
+        <view class="order-header">
+            <view class="order-no">订单编号：2019110112341234</view>
+            <view class="order-status">待付款</view>
+        </view>
+        <view class="goods-list">
+            <view class="goods-item" wx:for="{{2}}" wx:key="*this">
+                <image class="goods-image"></image>
+                <view class="goods-info">
+                    <view class="goods-name">【双11预售】最新限量款限定款预售正品cherry樱桃轴红轴机械键盘(含有线/无线鼠标套装)</view>
+                    <view class="goods-size-color">黎明灰：全尺寸套装</view>
+                    <view class="goods-price">¥158<span class="goods-num">x1</span></view>
+                </view>
+            </view>
+        </view>
+        <view class="order-footer">
+            <view class="pay-info">共有2件商品 实付金额：<text class="pay-amount">¥316</text></view>
+            <view class="action-btn">
+                <view class="btn-item">取消订单</view>
+                <view class="btn-item">立即支付</view>
+            </view>
+        </view>
+    </view>
+</template>

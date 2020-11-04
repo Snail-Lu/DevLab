@@ -10,6 +10,7 @@
     "pages/components/share/share",
     "pages/components/search/search",
     "pages/template/template",
+    "pages/templateDetail/templateDetail",
     "pages/demo/demo",
     "pages/demos/mall/mall",
     "pages/demos/officialDemo/officialDemo",
