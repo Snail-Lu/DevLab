@@ -242,3 +242,276 @@
         }
     }
 }
+
+// 购物车商品项1样式
+.cart-item-1{
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 30rpx;
+    border-radius: 6rpx;
+    overflow: hidden;
+    padding: 20rpx 0 20rpx 20rpx;
+
+    .cart-checkbox {
+        display: inline-block;
+        width: 36rpx;
+        height: 36rpx;
+        margin-right: 10rpx
+    }
+    .cart-checkbox .wx-checkbox-input{
+        margin-right: 20rpx;
+        width: 36rpx;
+        height: 36rpx;
+        border-radius: 18rpx;
+        border: 1px solid #c0c0c0;
+        box-sizing: border-box;
+        &.wx-checkbox-input-checked {
+            background: #070707;
+            border: 1px solid #070707;
+        }
+    }
+
+    .goods-image{
+        background-color: #ccc;
+        width: 200rpx;
+        height: 200rpx;
+        flex-shrink: 0;
+    }
+
+    .goods-info{
+        flex: 1;
+        padding: 0 30rpx;
+        height: 200rpx;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .goods-name{
+            width: 100%;
+            font-size: 26rpx;
+            white-space: normal;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            word-break: break-all;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .goods-color-size {
+            display: inline-block;
+            font-size: 24rpx;
+            background-color: #ccc;
+            color: #888;
+            padding: 6rpx 40rpx 6rpx 10rpx;
+            border-radius: 6rpx;
+            box-sizing: border-box;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 280rpx;
+            position: relative;
+        }
+
+        .goods-color-size::after{
+            content: "";
+            display: inline-block;
+            width: 10rpx;
+            height: 10rpx;
+            border-right: 2rpx solid #888;
+            border-bottom: 2rpx solid #888;
+            position: absolute;
+            top: 16rpx;
+            right: 14rpx;
+            transform: rotate(45deg);
+        }
+
+        .goods-price {
+            font-size: 30rpx;
+            font-weight: bold;
+            color: #fd7304;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .goods-num-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 180rpx;
+            border: 1px solid #888;
+            line-height: 1;
+            color: #333;
+            font-size: 26rpx;
+            border-radius: 4rpx;
+            .btn{
+                width: 32rpx;
+                height: 32rpx;
+            }
+            .btn-left {
+                border-right: 1px solid #aaa;
+            }
+            .btn-right {
+                border-left: 1px solid #aaa;
+            }
+        }
+    }
+}
+
+// 购物车商品项2样式
+.cart-item-2{
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 30rpx;
+    border-radius: 6rpx;
+    overflow: hidden;
+    padding: 20rpx 0 20rpx 20rpx;
+
+    .cart-header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20rpx;
+
+        .shop-name{ 
+            position: relative;
+        }
+        .shop-name::after{
+            position: absolute;
+            top: 18rpx;
+            right: -30rpx;
+            content: '';
+            width: 10rpx;
+            height: 10rpx;
+            display: inline-block;
+            border-top: 2rpx solid #888;
+            border-right: 2rpx solid #888;
+            transform: rotate(45deg);
+        }
+    }
+
+
+    .goods-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20rpx;
+    }
+
+    .cart-checkbox {
+        display: inline-block;
+        width: 40rpx;
+        height: 40rpx;
+        line-height: 40rpx;
+        padding: 0;
+        margin-right: 10rpx;
+        box-sizing: border-box;
+    }
+    .cart-checkbox .wx-checkbox-input{
+        margin-right: 20rpx;
+        width: 40rpx;
+        height: 40rpx;
+        box-sizing: border-box;
+        border-radius: 20rpx;
+        border: 1px solid #c0c0c0;
+        box-sizing: border-box;
+        &.wx-checkbox-input-checked {
+            background: #070707;
+            border: 1px solid #070707;
+        }
+    }
+
+    .goods-image{
+        background-color: #ccc;
+        width: 200rpx;
+        height: 200rpx;
+        flex-shrink: 0;
+    }
+
+    .goods-info{
+        flex: 1;
+        padding: 0 30rpx;
+        height: 200rpx;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .goods-name{
+            width: 100%;
+            font-size: 26rpx;
+            white-space: normal;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            word-break: break-all;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+        }
+
+        .goods-color-size {
+            display: inline-block;
+            font-size: 24rpx;
+            background-color: #ccc;
+            color: #888;
+            padding: 6rpx 40rpx 6rpx 10rpx;
+            border-radius: 6rpx;
+            box-sizing: border-box;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            width: 280rpx;
+            position: relative;
+        }
+
+        .goods-color-size::after{
+            content: "";
+            display: inline-block;
+            width: 10rpx;
+            height: 10rpx;
+            border-right: 2rpx solid #888;
+            border-bottom: 2rpx solid #888;
+            position: absolute;
+            top: 16rpx;
+            right: 14rpx;
+            transform: rotate(45deg);
+        }
+
+        .goods-price {
+            font-size: 30rpx;
+            font-weight: bold;
+            color: #fd7304;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .goods-num-box {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 180rpx;
+            border: 1px solid #888;
+            line-height: 1;
+            color: #333;
+            font-size: 26rpx;
+            border-radius: 4rpx;
+            .btn{
+                width: 32rpx;
+                height: 32rpx;
+            }
+            .btn-left {
+                border-right: 1px solid #aaa;
+            }
+            .btn-right {
+                border-left: 1px solid #aaa;
+            }
+        }
+    }
+}

@@ -64,3 +64,53 @@
         </view>
     </view>
 </template>
+
+
+<!-- 购物车列表项模板1 -->
+<template name="cartItem1">
+    <view class="cart-item-1">
+        <checkbox class="cart-checkbox" color="#fff"></checkbox>
+        <image class="goods-image" />
+        <view class="goods-info">
+            <view class="goods-name">【双11预售】最新限量款限定款预售正品cherry樱桃轴红轴机械键盘(含有线/无线鼠标套装)</view>
+            <text class="goods-color-size">黎明灰：全尺寸套装测测试测试测试测试</text>
+            <view class="goods-price">
+                <view>¥158</view>
+                <view class="goods-num-box">
+                    <image class="btn btn-left" src="/images/icons/jian.png" />
+                    <view class="goods-num">1</view>
+                    <image class="btn btn-right" src="/images/icons/jia.png" />
+                </view>
+            </view>
+        </view>
+    </view>
+</template>
+
+<!-- 购物车列表项模板2 -->
+<template name="cartItem2">
+    <view class="cart-item-2">
+        <view class="cart-header">
+            <checkbox class="cart-checkbox" color="#fff"></checkbox>
+            <view class="shop-name">天猫超市</view>
+        </view>
+        <view class="goods-list">
+            <view class="goods-item" wx:for="{{3}}">
+                <checkbox class="cart-checkbox" color="#fff"></checkbox>
+                <image class="goods-image" />
+                <view class="goods-info">
+                    <view class="goods-name">【双11预售】最新限量款限定款预售正品cherry樱桃轴红轴机械键盘(含有线/无线鼠标套装)</view>
+                    <text class="goods-color-size">黎明灰：全尺寸套装测测试测试测试测试</text>
+                    <view class="goods-price">
+                        <view>¥158</view>
+                        <view class="goods-num-box">
+                            <image class="btn btn-left" src="/images/icons/jian.png" />
+                            <view class="goods-num">1</view>
+                            <image class="btn btn-right" src="/images/icons/jia.png" />
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+        
+    </view>
+</template>
