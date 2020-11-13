@@ -89,9 +89,12 @@
 <!-- 购物车列表项模板2 -->
 <template name="cartItem2">
     <view class="cart-item-2">
-        <view class="cart-header">
-            <checkbox class="cart-checkbox" color="#fff"></checkbox>
+        <view class="cart-title">
+            <label style="display: flex;align-items: center;">
+                <checkbox class="cart-checkbox" color="#fff"></checkbox>
+            </label>
             <view class="shop-name">天猫超市</view>
+            <image class="icon-right" src="/images/icons/icon-right.png" />
         </view>
         <view class="goods-list">
             <view class="goods-item" wx:for="{{3}}">

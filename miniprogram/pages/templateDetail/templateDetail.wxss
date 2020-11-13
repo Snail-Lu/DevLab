@@ -315,25 +315,22 @@
 }
 
 .cart-item-1 .cart-checkbox {
-  display: inline-block;
-  width: 36rpx;
-  height: 36rpx;
+  width: 40rpx;
+  height: 40rpx;
   margin-right: 10rpx;
 }
 
 .cart-item-1 .cart-checkbox .wx-checkbox-input {
   margin-right: 20rpx;
-  width: 36rpx;
-  height: 36rpx;
-  border-radius: 18rpx;
-  border: 1px solid #c0c0c0;
+  width: 40rpx;
+  height: 40rpx;
+  border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
 
 .cart-item-1 .cart-checkbox .wx-checkbox-input.wx-checkbox-input-checked {
   background: #070707;
-  border: 1px solid #070707;
 }
 
 .cart-item-1 .goods-image {
@@ -382,7 +379,7 @@
 .cart-item-1 .goods-info .goods-color-size {
   display: inline-block;
   font-size: 24rpx;
-  background-color: #ccc;
+  background-color: #eee;
   color: #888;
   padding: 6rpx 40rpx 6rpx 10rpx;
   border-radius: 6rpx;
@@ -436,11 +433,11 @@
       -ms-flex-align: center;
           align-items: center;
   width: 180rpx;
-  border: 1px solid #888;
   line-height: 1;
   color: #333;
   font-size: 26rpx;
   border-radius: 4rpx;
+  background-color: #eee;
 }
 
 .cart-item-1 .goods-info .goods-num-box .btn {
@@ -449,11 +446,11 @@
 }
 
 .cart-item-1 .goods-info .goods-num-box .btn-left {
-  border-right: 1px solid #aaa;
+  border-right: 1px solid #fff;
 }
 
 .cart-item-1 .goods-info .goods-num-box .btn-right {
-  border-left: 1px solid #aaa;
+  border-left: 1px solid #fff;
 }
 
 .cart-item-2 {
@@ -466,7 +463,7 @@
   padding: 20rpx 0 20rpx 20rpx;
 }
 
-.cart-item-2 .cart-header {
+.cart-item-2 .cart-title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -474,24 +471,19 @@
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20rpx;
+  font-size: 26rpx;
+  font-weight: bold;
 }
 
-.cart-item-2 .cart-header .shop-name {
+.cart-item-2 .cart-title .shop-name {
   position: relative;
+  font-size: 26rpx;
+  font-weight: bold;
 }
 
-.cart-item-2 .cart-header .shop-name::after {
-  position: absolute;
-  top: 18rpx;
-  right: -30rpx;
-  content: '';
-  width: 10rpx;
-  height: 10rpx;
-  display: inline-block;
-  border-top: 2rpx solid #888;
-  border-right: 2rpx solid #888;
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+.cart-item-2 .cart-title .icon-right {
+  width: 28rpx;
+  height: 28rpx;
 }
 
 .cart-item-2 .goods-item {
@@ -505,30 +497,22 @@
 }
 
 .cart-item-2 .cart-checkbox {
-  display: inline-block;
   width: 40rpx;
   height: 40rpx;
-  line-height: 40rpx;
-  padding: 0;
   margin-right: 10rpx;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 .cart-item-2 .cart-checkbox .wx-checkbox-input {
   margin-right: 20rpx;
   width: 40rpx;
   height: 40rpx;
+  border-radius: 50%;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 20rpx;
-  border: 1px solid #c0c0c0;
-  box-sizing: border-box;
 }
 
 .cart-item-2 .cart-checkbox .wx-checkbox-input.wx-checkbox-input-checked {
   background: #070707;
-  border: 1px solid #070707;
 }
 
 .cart-item-2 .goods-image {
@@ -577,7 +561,7 @@
 .cart-item-2 .goods-info .goods-color-size {
   display: inline-block;
   font-size: 24rpx;
-  background-color: #ccc;
+  background-color: #eee;
   color: #888;
   padding: 6rpx 40rpx 6rpx 10rpx;
   border-radius: 6rpx;
@@ -631,11 +615,11 @@
       -ms-flex-align: center;
           align-items: center;
   width: 180rpx;
-  border: 1px solid #888;
   line-height: 1;
   color: #333;
   font-size: 26rpx;
   border-radius: 4rpx;
+  background-color: #eee;
 }
 
 .cart-item-2 .goods-info .goods-num-box .btn {
@@ -644,11 +628,11 @@
 }
 
 .cart-item-2 .goods-info .goods-num-box .btn-left {
-  border-right: 1px solid #aaa;
+  border-right: 1px solid #fff;
 }
 
 .cart-item-2 .goods-info .goods-num-box .btn-right {
-  border-left: 1px solid #aaa;
+  border-left: 1px solid #fff;
 }
 
 .coupon-item {
