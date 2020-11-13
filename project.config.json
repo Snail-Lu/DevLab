@@ -73,7 +73,7 @@
         {
           "name": "pages/templateDetail/templateDetail",
           "pathName": "pages/templateDetail/templateDetail",
-          "query": "template=cartItem1_cartItem2",
+          "query": "template=couponItem",
           "scene": null
         }
       ]

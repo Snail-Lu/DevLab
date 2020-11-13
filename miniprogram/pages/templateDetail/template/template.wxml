@@ -114,3 +114,26 @@
         
     </view>
 </template>
+
+<!-- 优惠券项模板 -->
+<template name="couponItem">
+    <view class="coupon-item">
+        <view class="coupon-l">
+            <view>¥200</view>
+            <view class="use-limit">满499元可用</view>
+        </view>
+        <view class="coupon-r">
+            <view class="r-top multiline-overflow">
+                <view class="label">满减券</view>
+                全品类(特例商品除外)
+            </view>
+            <view class="r-bottom">
+                <view class="coupon-date">2020.02.02-2020.12.12</view>
+                <view class="coupon-detail-btn">
+                    <text>详细信息</text>
+                    <image src="/images/icons/icon-down.png" />
+                </view>
+            </view>
+        </view>
+    </view>
+</template>
